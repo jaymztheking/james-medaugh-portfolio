@@ -1,0 +1,47 @@
+.skills {
+    background-color: #20587F; 
+    color: #FFFFDD; 
+    margin: 20px 0;
+    border-radius: 50px;
+    display: flex;
+  }
+  
+.skills h2 {
+  background-color: inherit;
+  border-radius: inherit;
+  padding: 30px;
+}
+
+.skillCategory {
+  background-color: inherit;
+  border-radius: inherit;
+  margin-bottom: 15px;
+  width: 25%;
+}
+
+.skillCategory h3 {
+  background-color: inherit;
+  border-radius: inherit;
+  font-size: 1.1em;
+  padding: 10px 10px;
+  color: #FFFFDD; /* Accent color */
+}
+
+ul {
+  background-color: inherit;
+  border-radius: inherit;
+  list-style-type: none; 
+  padding: 0;
+}
+
+li {
+  background-color: inherit;
+  border-radius: inherit;
+  margin: 5px 0;
+  font-family: 'Roboto Mono', monospace; /* Monospaced font for technical feel */
+  font-size: smaller;
+}
+
+li:before {
+  content: "-";
+}

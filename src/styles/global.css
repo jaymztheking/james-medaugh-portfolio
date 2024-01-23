@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+  margin: 0; /* Resets default margin */
+  padding: 0; /* Resets default padding */
+  background-color: #67A3BA;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+}
+
+/* Add basic styles for Intro and ProjectsCarousel for visibility */
+.intro {
+  width: 40%;
+}
+
+.carousel {
+  width: 60%;
+}
+
+.skills {
+  width: 60%;
+}

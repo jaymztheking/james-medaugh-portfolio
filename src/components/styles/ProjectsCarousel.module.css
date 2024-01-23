@@ -1,0 +1,19 @@
+.carousel {
+    padding: 50px 200px;
+    color: #001F3B;
+    background-color: #67A3BA;
+    height: 50%
+}
+
+.carousel h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 2px 4px 4px #5C87A8;
+}
+
+.project {
+    height: 100%;
+    min-height: 300px;
+    border: solid 1px red;
+}

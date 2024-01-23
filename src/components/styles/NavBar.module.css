@@ -1,5 +1,5 @@
 .navBar {
-    background-color: #0a1931;
+    background-color: #001F3B;
     padding: 10px 0;
 }
 
@@ -9,16 +9,19 @@
     padding: 0;
     display: flex;
     justify-content: center;
+    background-color: #001F3B;
 }
 
 .navItem {
     margin: 0 15px;
+    background-color: #001F3B;
 }
 
 .navLink {
-    color: white;
+    color: #FFFFDD;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
+    background-color: #001F3B;
 }
 
 .navLink:hover {

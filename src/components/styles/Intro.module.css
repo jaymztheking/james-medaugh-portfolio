@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Montserrat:wght@700&family=Raleway&display=swap');
+
+.intro {
+  font-family: 'Raleway', sans-serif;
+  color: #001F3B;
+  background-color: #67A3BA;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.intro h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-shadow: 2px 4px 4px #5C87A8;
+}
+
+.intro p {
+  /* font-family: 'Roboto Mono', monospace; */
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+  
+.intro img {
+  max-width: 75%;
+}

@@ -1,22 +1,26 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import NavBar from '../components/NavBar';
+import Intro from '../components/Intro';
+import ProjectsCarousel from '../components/ProjectsCarousel';
+import Skills from '../components/Skills';
 import Footer from '../components/Footer';
+import '../styles/global.css'; // Adjust the path if your global stylesheet is located elsewhere
 
 const IndexPage = () => {
-  return(
-    <div>
-      <header>
-        <NavBar />
-      </header>
-      <main>
-        <h1>Welcome.</h1>
-        <p>Hi, I'm James Medaugh.  I'm a data person doing data things.</p>
+  return (
+    <>
+      <NavBar />
+      <main className='mainContainer'>
+        <div className='intro'>
+          <Intro />
+        </div>
+        <div className='carousel'>
+          <ProjectsCarousel />
+          <Skills />
+        </div>
       </main>
-      <footer>
-        <Footer />
-      </footer>
-    </div>
+      <Footer />
+    </>
   );
 };
 
